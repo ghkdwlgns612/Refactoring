@@ -15,8 +15,13 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      - name: action-slack
+      - name: Slack-alarm
         uses: 8398a7/action-slack@v3.9.2
+        with:
+          status: ${{job.status}}
+          fields: repo,message,commit,author,action
+          author_name: jihuhwan
+          
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
