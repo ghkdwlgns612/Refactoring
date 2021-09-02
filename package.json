@@ -1,0 +1,22 @@
+{
+  "name": "refactoring",
+  "version": "1.0.0",
+  "description": "Refactoring책에 관한 코드",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghkdwlgns612/Refactoring.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghkdwlgns612/Refactoring/issues"
+  },
+  "homepage": "https://github.com/ghkdwlgns612/Refactoring#readme",
+
+  "type": "module",
+
+}
